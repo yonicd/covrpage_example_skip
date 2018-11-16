@@ -1,0 +1,18 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+[![Covrpage Summary](https://img.shields.io/badge/covrpage-Last_Build_2018_11_15-brightgreen.svg)](http://tinyurl.com/yaaggsay)
+
+# covrskip
+
+example repo showing skipped tests used by covrpage
