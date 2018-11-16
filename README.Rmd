@@ -13,6 +13,6 @@ knitr::opts_chunk$set(
 
 [![Covrpage Summary](https://img.shields.io/badge/covrpage-Last_Build_2018_11_15-yellowgreen.svg)](http://tinyurl.com/yadbd732)
 
-# covrskip
+# covrwarn
 
-example repo showing skipped tests used by covrpage
+example repo showing warning in tests used by covrpage
