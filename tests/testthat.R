@@ -1,4 +1,4 @@
 library(testthat)
-library(covrskip)
+library(covrwarn)
 
-test_check("covrskip")
+test_check("covrwarn")

@@ -1,6 +1,6 @@
 Tests and Coverage
 ================
-15 November, 2018 22:00:31
+15 November, 2018 22:03:51
 
 This output is created by
 [covrpage](https://github.com/yonicd/covrpage).
@@ -12,7 +12,7 @@ Coverage summary is created using the
 
 | Object                | Coverage (%) |
 | :-------------------- | :----------: |
-| covrskip              |    66.67     |
+| covrwarn              |    66.67     |
 | [R/fun.R](../R/fun.R) |    66.67     |
 
 <br>
@@ -25,7 +25,7 @@ package.
 
 | file                                 | n |  time | error | failed | skipped | warning | icon |
 | :----------------------------------- | -: | ----: | ----: | -----: | ------: | ------: | :--- |
-| [test\_func.R](testthat/test_func.R) | 4 | 0.006 |     0 |      0 |       0 |       1 | ⚠️   |
+| [test\_func.R](testthat/test_func.R) | 4 | 0.024 |     0 |      0 |       0 |       1 | ⚠️   |
 
 <details open>
 
@@ -34,9 +34,9 @@ package.
 
 | file                                     | context   | test               | status  | n |  time | icon |
 | :--------------------------------------- | :-------- | :----------------- | :------ | -: | ----: | :--- |
-| [test\_func.R](testthat/test_func.R#)    | test      | odd: check sum     | PASS    | 1 | 0.002 |      |
+| [test\_func.R](testthat/test_func.R#)    | test      | odd: check sum     | PASS    | 1 | 0.021 |      |
 | [test\_func.R](testthat/test_func.R#)    | test      | even: check divide | PASS    | 1 | 0.001 |      |
-| [test\_func.R](testthat/test_func.R#L22) | test warn | even: check divide | WARNING | 2 | 0.003 | ⚠️   |
+| [test\_func.R](testthat/test_func.R#L22) | test warn | even: check divide | WARNING | 2 | 0.002 | ⚠️   |
 
 | Failed | Warning | Skipped |
 | :----- | :------ | :------ |
