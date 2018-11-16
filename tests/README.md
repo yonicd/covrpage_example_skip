@@ -1,6 +1,6 @@
 Tests and Coverage
 ================
-15 November, 2018 21:52:49
+15 November, 2018 22:00:31
 
 This output is created by
 [covrpage](https://github.com/yonicd/covrpage).
@@ -12,8 +12,8 @@ Coverage summary is created using the
 
 | Object                | Coverage (%) |
 | :-------------------- | :----------: |
-| covrskip              |     100      |
-| [R/fun.R](../R/fun.R) |     100      |
+| covrskip              |    66.67     |
+| [R/fun.R](../R/fun.R) |    66.67     |
 
 <br>
 
@@ -23,19 +23,24 @@ Unit Test summary is created using the
 [testthat](https://github.com/r-lib/testthat)
 package.
 
-| file                                 | n |  time | error | failed | skipped | warning |
-| :----------------------------------- | -: | ----: | ----: | -----: | ------: | ------: |
-| [test\_func.R](testthat/test_func.R) | 2 | 0.002 |     0 |      0 |       0 |       0 |
+| file                                 | n |  time | error | failed | skipped | warning | icon |
+| :----------------------------------- | -: | ----: | ----: | -----: | ------: | ------: | :--- |
+| [test\_func.R](testthat/test_func.R) | 4 | 0.006 |     0 |      0 |       0 |       1 | ⚠️   |
 
-<details closed>
+<details open>
 
 <summary> Show Detailed Test Results
 </summary>
 
-| file                                  | context | test               | status | n |  time |
-| :------------------------------------ | :------ | :----------------- | :----- | -: | ----: |
-| [test\_func.R](testthat/test_func.R#) | test    | odd: check sum     | PASS   | 1 | 0.001 |
-| [test\_func.R](testthat/test_func.R#) | test    | even: check divide | PASS   | 1 | 0.001 |
+| file                                     | context   | test               | status  | n |  time | icon |
+| :--------------------------------------- | :-------- | :----------------- | :------ | -: | ----: | :--- |
+| [test\_func.R](testthat/test_func.R#)    | test      | odd: check sum     | PASS    | 1 | 0.002 |      |
+| [test\_func.R](testthat/test_func.R#)    | test      | even: check divide | PASS    | 1 | 0.001 |      |
+| [test\_func.R](testthat/test_func.R#L22) | test warn | even: check divide | WARNING | 2 | 0.003 | ⚠️   |
+
+| Failed | Warning | Skipped |
+| :----- | :------ | :------ |
+| 🛑      | ⚠️      | 🔶       |
 
 </details>
 
@@ -59,4 +64,4 @@ package.
 
 </details>
 
-<!--- Final Status : pass --->
+<!--- Final Status : skipped/warning --->

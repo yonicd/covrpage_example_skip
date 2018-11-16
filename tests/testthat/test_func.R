@@ -14,10 +14,13 @@ testthat::describe('even',{
   
 })
 
-context('test skip')
+context('test warn')
 
 testthat::describe('even',{
-  testthat::skip_on_cran()
-  it('check divide',expect_equal(fun(2,2),1))
+  
+  it('check divide',{
+    warning('aaa')
+    expect_equal(fun(2,2),1)
+    })
   
 })
