@@ -1,5 +1,5 @@
 library(testthat)
-library(covrskip)
+library(covrwarn)
 
 context('test')
 
